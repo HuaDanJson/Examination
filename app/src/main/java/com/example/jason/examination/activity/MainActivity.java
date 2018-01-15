@@ -111,10 +111,12 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.flMainDrawerUser:
                 //进入自己的主页
+                toActivity(UserInfoActivity.class);
                 closeDrawer();
                 break;
             case R.id.ivMainDrawerUserAvatar:
                 //进入自己的主页
+                toActivity(UserInfoActivity.class);
                 closeDrawer();
                 break;
             case R.id.llMainDrawerVideo:
@@ -135,7 +137,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.llMainDrawerSetting:
                 //设置页
-                //  toActivity(SettingActivity.class);
+                toActivity(SettingActivity.class);
                 closeDrawer();
                 break;
             case R.id.llMainDrawerLogin:
