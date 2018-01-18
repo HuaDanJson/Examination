@@ -4,5 +4,20 @@
     <string name="app_name">医学知识学习助手</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="cancel_success">取消成功</string>
+    <string name="clear_save">已清空全部收藏记录</string>
+    <string name="are_you_sure_clear">确定要清空吗?</string>
+    <string name="sure">确定?</string>
+    <string name="cancel">取消?</string>
+    <string name="clear_wrong_text">已清空全部错题记录?</string>
+    <string name="are_you_sure_exit_exam">确定要退出考试吗?</string>
+    <string name="whether_commit_exam">是否交卷?</string>
+    <string name="collection_success">收藏成功</string>
+    <string name="this_problem_has_been_collected">这一题已经收藏了</string>
+    <string name="all_test_results_have_been_cleared">已清空全部考试结果记录</string>
+    <string name="clear">清空</string>
+    <string name="historical_achievement">历史成绩</string>
+    <string name="sequence_practice">顺序练习</string>
+    <string name="problem_has_been_collected">这一题已经收藏了</string>
 
 </resources>

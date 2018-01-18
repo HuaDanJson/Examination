@@ -146,13 +146,13 @@ public class ExamActivity extends Activity implements OnClickListener, OnItemCli
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            AlertDialog dialog = new AlertDialog.Builder(this).setMessage("确定要退出考试吗？")
-                    .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+            AlertDialog dialog = new AlertDialog.Builder(this).setMessage(getResources().getString(R.string.are_you_sure_exit_exam))
+                    .setPositiveButton(getResources().getString(R.string.sure), new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             finish();
                         }
-                    }).setNegativeButton("取消", null).create();
+                    }).setNegativeButton(getResources().getString(R.string.cancel), null).create();
             dialog.show();
         }
         return super.onKeyDown(keyCode, event);
@@ -315,37 +315,37 @@ public class ExamActivity extends Activity implements OnClickListener, OnItemCli
             //收藏题目
         } else if (i == R.id.collect) {//有相同的，就不收藏了
             if (hasTheSame()) {
-                Toast.makeText(this, "这一题已经收藏了", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getResources().getString(R.string.this_problem_has_been_collected), Toast.LENGTH_SHORT).show();
             } else {
                 //没有收藏过，就可以收藏
                 ContentValues cv = new ContentValues();
                 cv.put("timu", timu);
                 cv.put("daan", daan);
                 DBManager.db.insert("collectTable", null, cv);
-                Toast.makeText(this, "收藏成功", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getResources().getString(R.string.collection_success), Toast.LENGTH_SHORT).show();
             }
 
             //交卷
         } else if (i == R.id.titlebar_right_text) {
-            AlertDialog dialog = new AlertDialog.Builder(this).setMessage("是否交卷")
-                    .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+            AlertDialog dialog = new AlertDialog.Builder(this).setMessage(getResources().getString(R.string.whether_commit_exam))
+                    .setPositiveButton(getResources().getString(R.string.sure), new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             DBManager.insertExamresultTable(selected, selectRight);
                             startActivity(new Intent(ExamActivity.this, ResultActivity.class));
                             finish();
                         }
-                    }).setNegativeButton("取消", null).create();
+                    }).setNegativeButton(getResources().getString(R.string.cancel), null).create();
             dialog.show();
 
         } else if (i == R.id.titlebar_left_layout) {
-            AlertDialog dialog1 = new AlertDialog.Builder(this).setMessage("确定要退出考试吗？")
-                    .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+            AlertDialog dialog1 = new AlertDialog.Builder(this).setMessage(getResources().getString(R.string.are_you_sure_exit_exam))
+                    .setPositiveButton(getResources().getString(R.string.sure), new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             finish();
                         }
-                    }).setNegativeButton("取消", null).create();
+                    }).setNegativeButton(getResources().getString(R.string.cancel), null).create();
             dialog1.show();
 
 

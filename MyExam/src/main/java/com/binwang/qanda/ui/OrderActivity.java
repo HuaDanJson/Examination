@@ -138,7 +138,7 @@ public class OrderActivity extends Activity implements OnClickListener, OnItemCl
         getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.view_comm_titlebar);
         TextView title = (TextView) findViewById(R.id.titlebar_title);
         LinearLayout back = (LinearLayout) findViewById(R.id.titlebar_left_layout);
-        title.setText("顺序练习");
+        title.setText(getResources().getString(R.string.sequence_practice));
         back.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -315,14 +315,14 @@ public class OrderActivity extends Activity implements OnClickListener, OnItemCl
             //收藏题目
         } else if (i == R.id.collect) {//有相同的，就不收藏了
             if (hasTheSame()) {
-                Toast.makeText(this, "这一题已经收藏了", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getResources().getString(R.string.problem_has_been_collected), Toast.LENGTH_SHORT).show();
             } else {
                 //没有收藏过，就可以收藏
                 ContentValues cv = new ContentValues();
                 cv.put("timu", timu);
                 cv.put("daan", daan);
                 DBManager.db.insert("collectTable", null, cv);
-                Toast.makeText(this, "收藏成功", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getResources().getString(R.string.collection_success), Toast.LENGTH_SHORT).show();
             }
 
         } else {

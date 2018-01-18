@@ -259,14 +259,14 @@ public class ExamErrorActivity extends Activity implements OnClickListener,OnIte
 			//收藏题目
 		} else if (i == R.id.collect) {//有相同的，就不收藏了
 			if (hasTheSame()) {
-				Toast.makeText(this, "这一题已经收藏了", Toast.LENGTH_SHORT).show();
+				Toast.makeText(this, getResources().getString(R.string.this_problem_has_been_collected), Toast.LENGTH_SHORT).show();
 			} else {
 				//没有收藏过，就可以收藏
 				ContentValues cv = new ContentValues();
 				cv.put("timu", timu);
 				cv.put("daan", daan);
 				DBManager.db.insert("collectTable", null, cv);
-				Toast.makeText(this, "收藏成功", Toast.LENGTH_SHORT).show();
+				Toast.makeText(this, getResources().getString(R.string.collection_success), Toast.LENGTH_SHORT).show();
 			}
 
 		} else {

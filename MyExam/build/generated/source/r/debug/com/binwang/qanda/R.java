@@ -160,8 +160,23 @@ public final class R {
     }
     public static final class string {
         public static int action_settings = 0x7f150001;
-        public static int app_name = 0x7f150002;
-        public static int hello_world = 0x7f150003;
+        public static int all_test_results_have_been_cleared = 0x7f150002;
+        public static int app_name = 0x7f150003;
+        public static int are_you_sure_clear = 0x7f150004;
+        public static int are_you_sure_exit_exam = 0x7f150005;
+        public static int cancel = 0x7f150006;
+        public static int cancel_success = 0x7f150007;
+        public static int clear = 0x7f150008;
+        public static int clear_save = 0x7f150009;
+        public static int clear_wrong_text = 0x7f15000a;
+        public static int collection_success = 0x7f15000b;
+        public static int hello_world = 0x7f15000c;
+        public static int historical_achievement = 0x7f15000d;
+        public static int problem_has_been_collected = 0x7f15000e;
+        public static int sequence_practice = 0x7f15000f;
+        public static int sure = 0x7f150010;
+        public static int this_problem_has_been_collected = 0x7f150011;
+        public static int whether_commit_exam = 0x7f150012;
     }
     public static final class style {
         public static int AnimationActivity01 = 0x7f160001;

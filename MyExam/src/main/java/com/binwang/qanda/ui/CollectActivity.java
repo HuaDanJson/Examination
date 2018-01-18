@@ -325,7 +325,7 @@ public class CollectActivity extends Activity implements OnClickListener, OnItem
             if (timuMax > 1) {
                 String[] whereArgs = {timu};
                 DBManager.db.delete("collectTable", "timu=?", whereArgs);
-                Toast.makeText(this, "取消成功", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getResources().getString(R.string.cancel_success), Toast.LENGTH_SHORT).show();
                 selected = getStringArray(selected, timuCurrent);
                 setTimuMaxandRight();
                 if (timuCurrent > timuMax - 1) {
@@ -337,7 +337,7 @@ public class CollectActivity extends Activity implements OnClickListener, OnItem
                 String[] whereArgs = {timu};
                 DBManager.db.delete("collectTable", "timu=?", whereArgs);
                 finish();
-                Toast.makeText(this, "已清空全部收藏记录", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getResources().getString(R.string.clear_save), Toast.LENGTH_SHORT).show();
             } else {
 
             }
@@ -345,15 +345,15 @@ public class CollectActivity extends Activity implements OnClickListener, OnItem
 
             //清空收藏
         } else if (i == R.id.titlebar_right_text) {
-            AlertDialog dialog = new AlertDialog.Builder(this).setMessage("确定要清空吗？")
-                    .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+            AlertDialog dialog = new AlertDialog.Builder(this).setMessage(getResources().getString(R.string.are_you_sure_clear))
+                    .setPositiveButton(getResources().getString(R.string.sure), new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             DBManager.db.delete("collectTable", null, null);
                             finish();
-                            Toast.makeText(CollectActivity.this, "已清空全部收藏的题目", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(CollectActivity.this, getResources().getString(R.string.clear_save), Toast.LENGTH_SHORT).show();
                         }
-                    }).setNegativeButton("取消", null).create();
+                    }).setNegativeButton(getResources().getString(R.string.cancel), null).create();
             dialog.show();
 
         } else {
