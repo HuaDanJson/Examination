@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.binwang.qanda" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.binwang.qanda.ui.TestExamMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitlebarStyle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.binwang.qanda.ui.OrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitlebarStyle" >
+        </activity>
+        <activity
+            android:name="com.binwang.qanda.ui.CollectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitlebarStyle" >
+        </activity>
+        <activity
+            android:name="com.binwang.qanda.ui.ExamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitlebarStyle" >
+        </activity>
+        <activity
+            android:name="com.binwang.qanda.ui.ResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBiaoti" >
+        </activity>
+        <activity
+            android:name="com.binwang.qanda.ui.ExamErrorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitlebarStyle" >
+        </activity>
+        <activity
+            android:name="com.binwang.qanda.ui.ErrorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitlebarStyle" >
+        </activity>
+        <activity
+            android:name="com.binwang.qanda.ui.HisResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitlebarStyle" >
+        </activity>
+        <!--
+             android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+        -->
+    </application>
+
+</manifest>

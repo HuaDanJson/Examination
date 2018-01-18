@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_btn_login_press.9.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/btn_login_press.9.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_icon_unfavorite.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/icon_unfavorite.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_select_subject.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/select_subject.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_answer.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/answer.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_navigation_forward.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/navigation_forward.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/anim_push_up_out.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/anim/push_up_out.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/anim_zoom_enter.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/anim/zoom_enter.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_th_topple5.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/th_topple5.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_redfla_refix.jpg.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/redfla_refix.jpg"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_right.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/right.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_activity_collect.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/activity_collect.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/menu_main.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ziseanfla_refix.jpg.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ziseanfla_refix.jpg"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/anim_alpha_scale_rotate_out.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/anim/alpha_scale_rotate_out.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_activity_result.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/activity_result.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_greenfla_refix.jpg.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/greenfla_refix.jpg"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_icon_favorite.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/icon_favorite.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_titlebar_back.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_titlebar_back.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_tooopen_sy_1_refix.jpg.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/tooopen_sy_1_refix.jpg"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_icon_history.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/icon_history.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_activity_order.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/activity_order.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_activity_exam_error.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/activity_exam_error.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_item_gridview_selectsubject.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/item_gridview_selectsubject.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_wrong.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/wrong.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_activity_error.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/activity_error.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_titlebar_mainactivity.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/titlebar_mainactivity.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_load_progress.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_load_progress.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_item2_gridview_selectsubject.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/item2_gridview_selectsubject.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_bluefeifla_refix.jpg.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bluefeifla_refix.jpg"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_defaults.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/defaults.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_more_select.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/more_select.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_enter_simulate.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/enter_simulate.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/anim_push_left_in.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/anim/push_left_in.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_icon_remove.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/icon_remove.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_activity_test_exam_main.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/activity_test_exam_main.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/anim_zoom_exit.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/anim/zoom_exit.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_navigation_back.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/navigation_back.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_item_listview_hisresult.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/item_listview_hisresult.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_activity_his_result.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/activity_his_result.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_bt_unstar.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bt_unstar.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_view_comm_titlebar.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/view_comm_titlebar.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_btn_login_unpress.9.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/btn_login_unpress.9.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_icon_wrong.png.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/icon_wrong.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/anim_push_left_out.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/anim/push_left_out.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_zisefla_refix.jpg.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/drawable-hdpi-v4/zisefla_refix.jpg"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/anim_alpha_scale_rotate.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/anim/alpha_scale_rotate.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/layout_activity_exam.xml.flat",
+        "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/layout/activity_exam.xml"
+    }
+]

@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.binwang.qanda.ui.TestExamMainActivity;
 import com.example.jason.examination.Bean.ExameURLBean;
 import com.example.jason.examination.R;
 import com.example.jason.examination.adapter.MainActivityAdapter;
@@ -110,7 +111,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 //                intent.putExtra(ConstKey.INTENT_KEY_TO_WEB_VIEW_ACTIVITY_URL, "http://mnks.jxedt.com/akm1/sjlx/");
 //                startActivity(intent);
 
-//                toActivity(TestExamMainActivity.class);
+                toActivity(TestExamMainActivity.class);
                 break;
             case R.id.flMainDrawerUser:
                 //进入自己的主页

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bluefeifla_refix.jpg",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/bluefeifla_refix.jpg"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/greenfla_refix.jpg",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/greenfla_refix.jpg"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/redfla_refix.jpg",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/redfla_refix.jpg"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/tooopen_sy_1_refix.jpg",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/tooopen_sy_1_refix.jpg"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/zisefla_refix.jpg",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/zisefla_refix.jpg"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ziseanfla_refix.jpg",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/ziseanfla_refix.jpg"
+    }
+]

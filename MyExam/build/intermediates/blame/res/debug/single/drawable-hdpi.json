@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/wrong.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/wrong.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_unfavorite.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/icon_unfavorite.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_load_progress.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/ic_load_progress.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_titlebar_back.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/ic_titlebar_back.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/navigation_back.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/navigation_back.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_login_press.9.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/btn_login_press.9.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_login_unpress.9.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/btn_login_unpress.9.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/bt_unstar.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/bt_unstar.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_favorite.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/icon_favorite.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/more_select.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/more_select.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/th_topple5.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/th_topple5.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_remove.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/icon_remove.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/navigation_forward.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/navigation_forward.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/defaults.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/defaults.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_history.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/icon_history.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_wrong.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/icon_wrong.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/right.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/right.png"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/drawable-hdpi/answer.png",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/drawable-hdpi/answer.png"
+    }
+]

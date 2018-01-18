@@ -1,0 +1,67 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/values-v14/values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,24,31,34,43,44,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,102,154,204,253,300,347,395,441,499,555,620,680,733,786,832,885,1324,1615,1775,2334,2409,2525",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,23,30,33,42,43,46,54",
+                        "endColumns": "46,51,49,48,46,46,47,45,57,55,64,59,52,52,45,52,12,12,12,12,74,12,12",
+                        "endOffsets": "97,149,199,248,295,342,390,436,494,550,615,675,728,781,827,880,1319,1610,1770,2329,2404,2520,2999"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/res/merged/androidTest/debug/values-w820dp-v13_values-w820dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/jason/AndroidStudioProjects/QiLuVideo/Examination/MyExam/build/intermediates/bundles/debug/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

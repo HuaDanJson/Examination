@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/item2_gridview_selectsubject.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/item2_gridview_selectsubject.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/view_comm_titlebar.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/view_comm_titlebar.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/enter_simulate.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/enter_simulate.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/activity_error.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/activity_error.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/titlebar_mainactivity.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/titlebar_mainactivity.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/activity_collect.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/activity_collect.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/item_gridview_selectsubject.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/item_gridview_selectsubject.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/select_subject.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/select_subject.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/activity_exam.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/activity_exam.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/activity_result.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/activity_result.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/activity_test_exam_main.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/activity_test_exam_main.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/activity_exam_error.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/activity_exam_error.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/activity_his_result.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/activity_his_result.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/item_listview_hisresult.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/item_listview_hisresult.xml"
+    },
+    {
+        "merged": "/Users/jason/AndroidProject/qanda-master1/app/build/intermediates/res/merged/debug/layout/activity_order.xml",
+        "source": "/Users/jason/AndroidProject/qanda-master1/app/src/main/res/layout/activity_order.xml"
+    }
+]
