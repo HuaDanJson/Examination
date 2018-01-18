@@ -21,4 +21,7 @@
     <string name="log_out">LogOut</string>
     <string name="quit_app">Tap again to quit App</string>
 
+    <string name="hello_world">Hello world!</string>
+
+
 </resources>

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jason/examination/activity/ui/CollectActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jason/examination/activity/ui/ErrorActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jason/examination/activity/ui/ExamActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jason/examination/activity/ui/ExamErrorActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jason/examination/activity/ui/HisResultActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jason/examination/activity/ui/OrderActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jason/examination/activity/ui/ResultActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jason/examination/activity/ui/TestExamMainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jason/examination/utils/TimeUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jason/examination/utils/ViewHolder.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/TimeUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/ViewHolder.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

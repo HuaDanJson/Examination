@@ -99,4 +99,21 @@
     <color name="base_bar_title">#de000000</color>
     <color name="feedback_activity_edit_stroke_color">#1f000000</color>
     <color name="feedback_activity_send_bloag_text_color">#7a000000</color>
+
+    <!-- FilterView -->
+    <color name="filter_name_color">#ffffff</color>
+    <drawable name="filter_loading_color">#ffffff</drawable>
+    <color name="match_tag_hot_color">#242323</color>
+    <color name="match_tag_backgroud_color">#33000000</color>
+
+
+    <color name="select_agodefault">#969fa5</color><!-- 黑灰 -->
+    <color name="select_default">#DBDEE5</color><!-- 亮灰 -->
+    <color name="select_right">#48daa9</color><!-- 浅绿 -->
+    <color name="select_error">#eb6161</color><!-- 红 -->
+    <color name="select_select">#c6c6c6</color><!-- 暗灰 -->
+    <color name="select_answered">#60adde</color><!-- 天蓝 -->
+    <color name="right_answer">#009100</color><!-- 绿 -->
+    <color name="titlebar_bg">#222222</color>
+
 </resources>

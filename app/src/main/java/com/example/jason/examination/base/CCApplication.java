@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Application;
 
 import com.blankj.utilcode.util.Utils;
+import com.example.jason.examination.utils.DBExameURLBeanUtils;
 import com.example.jason.examination.utils.SharePreferenceUtil;
 import com.example.jason.examination.utils.ToastHelper;
 
@@ -24,6 +25,7 @@ public class CCApplication extends Application {
         SharePreferenceUtil.initInstance(getApplicationContext(), SharePreferenceUtil.MODE_ENCRYPT_ALL);
         ToastHelper.init(this);
         Utils.init(this);
+        DBExameURLBeanUtils.Init(getApplicationContext());
     }
 
 

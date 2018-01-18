@@ -1,22 +1,34 @@
 package com.example.jason.examination.activity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.jason.examination.Bean.ExameURLBean;
 import com.example.jason.examination.R;
+import com.example.jason.examination.adapter.MainActivityAdapter;
 import com.example.jason.examination.base.BaseActivity;
+import com.example.jason.examination.utils.DBExameURLBeanUtils;
 import com.example.jason.examination.utils.ToastHelper;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnTextChanged;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
@@ -26,6 +38,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     @BindView(R.id.rlvMainActivity) RecyclerView rlvMainActivity;
     @BindView(R.id.nvMainActivity) NavigationView nvMainActivity;
     @BindView(R.id.dlMain) DrawerLayout dlMain;
+    @BindView(R.id.iv_search_main_activity) ImageView ivSearchMainActivity;
+    @BindView(R.id.edt_search_main_activity) EditText edtSearchMainActivity;
+    @BindView(R.id.iv_clear_search_main_activity) ImageView ivClearSearchMainActivity;
+    @BindView(R.id.ll_search_main_activity) LinearLayout llSearchMainActivity;
 
     private ImageView ivMainDrawerBg;
     private ImageView ivMainDrawerUserAvatar;
@@ -37,6 +53,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     private View headView;
     private ImageView ivMainDrawerNotLoginUserAvatar;
     private long firstBack = -1;
+    private MainActivityAdapter mainActivityAdapter;
+
+    private List<ExameURLBean> exameURLBeanList = new ArrayList<>();
+    private List<ExameURLBean> exameURLBeanSearchList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,38 +64,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         initView();
-//        //有权限自然会走onGranted 没权限会走 onDenied
-//        PermissionUtils.permission(PermissionConstants.CAMERA, PermissionConstants.PHONE)
-//                .rationale(new PermissionUtils.OnRationaleListener() {
-//                    @Override
-//                    public void rationale(final ShouldRequest shouldRequest) {
-//                        PermissionHelper.showRationaleDialog(shouldRequest);
-//                    }
-//                })
-//                .callback(new PermissionUtils.FullCallback() {
-//                    @Override
-//                    public void onGranted(List<String> permissionsGranted) {
-//                        LogUtils.d("有权限自然会走onGranted");
-//                    }
-//
-//                    @Override
-//                    public void onDenied(List<String> permissionsDeniedForever,
-//                                         List<String> permissionsDenied) {
-//                        if (!permissionsDeniedForever.isEmpty()) {
-//                            PermissionHelper.showOpenAppSettingDialog();
-//                            LogUtils.d("permissionsDeniedForever.isEmpty()  没权限会走 onDenied");
-//                        }
-//                        LogUtils.d(permissionsDeniedForever, permissionsDenied);
-//                    }
-//                })
-//                .theme(new PermissionUtils.ThemeCallback() {
-//                    @Override
-//                    public void onActivityCreate(Activity activity) {
-//                        ScreenUtils.setFullScreen(activity);// 设置全屏
-//                        LogUtils.d("onActivityCreate");
-//                    }
-//                })
-//                .request();
+        initRecyclerView();
     }
 
     private void initView() {
@@ -97,7 +86,16 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         headView.findViewById(R.id.llMainDrawerLogin).setOnClickListener(this);
         ivMainActivityMenu.setOnClickListener(this);
         ivMainActivityCamera.setOnClickListener(this);
+        ivClearSearchMainActivity.setOnClickListener(this);
 
+    }
+
+    public void initRecyclerView() {
+        exameURLBeanList = DBExameURLBeanUtils.getInstance().queryAllData();
+        final GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+        rlvMainActivity.setLayoutManager(gridLayoutManager);
+        mainActivityAdapter = new MainActivityAdapter(this, exameURLBeanList);
+        rlvMainActivity.setAdapter(mainActivityAdapter);
     }
 
     @Override
@@ -107,7 +105,12 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 openDrawer();
                 break;
             case R.id.ivMainActivityCamera:
-//                toActivity(FilterCameraActivity.class);
+//                Intent intent = new Intent(this, WebViewActivity.class);
+//                intent.putExtra(ConstKey.INTENT_KEY_TO_WEB_VIEW_ACTIVITY_TITLE, "模拟考试");
+//                intent.putExtra(ConstKey.INTENT_KEY_TO_WEB_VIEW_ACTIVITY_URL, "http://mnks.jxedt.com/akm1/sjlx/");
+//                startActivity(intent);
+
+//                toActivity(TestExamMainActivity.class);
                 break;
             case R.id.flMainDrawerUser:
                 //进入自己的主页
@@ -145,6 +148,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 toActivity(LoginActivity.class);
                 closeDrawer();
                 break;
+
+            case R.id.iv_clear_search_main_activity:
+                edtSearchMainActivity.setText("");
+                break;
             default:
                 break;
 
@@ -159,6 +166,15 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         //打开抽屉
         if (!isDrawerOpen()) {
             dlMain.openDrawer(Gravity.LEFT);
+            closeSoft();
+        }
+    }
+
+    public void closeSoft() {
+        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        if (imm != null) {
+            imm.hideSoftInputFromWindow(getWindow().getDecorView().getWindowToken(),
+                    0);
         }
     }
 
@@ -171,6 +187,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 if (isDrawerOpen()) {
                     dlMain.closeDrawer(Gravity.LEFT);
                     dlMain.closeDrawers();
+                    closeSoft();
                 }
             }
         }, 500);
@@ -187,6 +204,35 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             } else {
                 firstBack = System.currentTimeMillis();
                 ToastHelper.showShortMessage(R.string.quit_app);
+            }
+        }
+    }
+
+
+    @OnTextChanged(value = R.id.edt_search_main_activity, callback = OnTextChanged.Callback.AFTER_TEXT_CHANGED)
+    void onTextChanged(CharSequence text) {
+        //搜索好友开始
+        if (TextUtils.isEmpty(text.toString().trim())) {
+            ivClearSearchMainActivity.setVisibility(View.GONE);
+            exameURLBeanList = DBExameURLBeanUtils.getInstance().queryAllData();
+            mainActivityAdapter.setData(exameURLBeanList);
+        } else {
+            ivClearSearchMainActivity.setVisibility(View.VISIBLE);
+
+            exameURLBeanSearchList.clear();
+            if (text.length() > 0 && exameURLBeanList.size() > 0) {
+                for (ExameURLBean exameURLBean : exameURLBeanList) {
+                    if (!TextUtils.isEmpty(exameURLBean.getName()) && exameURLBean.getName().toLowerCase().startsWith(text.toString().toLowerCase())) {
+                        exameURLBeanSearchList.add(exameURLBean);
+                    }
+                }
+                if (exameURLBeanSearchList.size() > 0) {
+                    mainActivityAdapter.setData(exameURLBeanSearchList);
+                } else {
+                    mainActivityAdapter.setData(exameURLBeanList);
+                    ToastHelper.showShortMessage("没有搜索到相关信息");
+                }
+
             }
         }
     }
