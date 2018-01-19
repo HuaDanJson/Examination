@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Examination</string>
+    <string name="考试信息平台">Examination</string>
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->

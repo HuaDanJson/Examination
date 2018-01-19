@@ -115,12 +115,12 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.flMainDrawerUser:
                 //进入自己的主页
-                toActivity(UserInfoActivity.class);
+//                toActivity(UserInfoActivity.class);
                 closeDrawer();
                 break;
             case R.id.ivMainDrawerUserAvatar:
                 //进入自己的主页
-                toActivity(UserInfoActivity.class);
+//                toActivity(UserInfoActivity.class);
                 closeDrawer();
                 break;
             case R.id.llMainDrawerVideo:

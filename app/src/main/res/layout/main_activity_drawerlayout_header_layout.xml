@@ -90,6 +90,7 @@
                 android:orientation="horizontal"
                 android:paddingBottom="16dp"
                 android:paddingLeft="18dp"
+                android:visibility="gone"
                 android:paddingTop="28dp">
 
                 <RelativeLayout
@@ -131,6 +132,7 @@
                 android:orientation="horizontal"
                 android:paddingBottom="16dp"
                 android:paddingLeft="18dp"
+                android:visibility="gone"
                 android:paddingTop="16dp">
 
                 <RelativeLayout
@@ -161,6 +163,7 @@
                 android:background="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:onClick="setOnClick"
+                android:visibility="gone"
                 android:orientation="horizontal"
                 android:paddingBottom="16dp"
                 android:paddingLeft="18dp"
@@ -197,6 +200,7 @@
                 android:orientation="horizontal"
                 android:paddingBottom="16dp"
                 android:paddingLeft="18dp"
+                android:visibility="gone"
                 android:paddingTop="16dp">
 
                 <RelativeLayout
