@@ -65,7 +65,7 @@ public class TestExamMainActivity extends Activity implements OnClickListener {
         } else if (i == R.id.simulate) {
             View layout = getLayoutInflater().inflate(R.layout.enter_simulate, null);
             final Dialog dialog = new Dialog(this);
-            dialog.setTitle("温馨提示");
+            dialog.setTitle(getResources().getString(R.string.reminder));
             dialog.show();
             dialog.getWindow().setContentView(layout);
             final EditText et_name = (EditText) layout.findViewById(R.id.et_name);
@@ -75,13 +75,13 @@ public class TestExamMainActivity extends Activity implements OnClickListener {
                 @Override
                 public void onClick(View v) {
                     if (TextUtils.isEmpty(et_name.getText().toString().trim())) {
-                        Toast.makeText(TestExamMainActivity.this, "请先输入考试姓名", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(TestExamMainActivity.this, getResources().getString(R.string.input_name), Toast.LENGTH_SHORT).show();
                     } else {
                         DBManager.insertExamTable();
                         ResultActivity.NAME = et_name.getText().toString().trim();
                         //ExamActivity.intentToExamActivity(TestExamMainActivity.this, et_name.getText().toString().trim());
                         startActivity(new Intent(TestExamMainActivity.this, ExamActivity.class));
-                        Toast.makeText(TestExamMainActivity.this, "考试开始", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(TestExamMainActivity.this, getResources().getString(R.string.begin_exam), Toast.LENGTH_SHORT).show();
                     }
                     dialog.dismiss();
                 }
@@ -101,7 +101,7 @@ public class TestExamMainActivity extends Activity implements OnClickListener {
                 if (cursor2.getCount() != 0) {
                     startActivity(new Intent(this, CollectActivity.class));
                 } else {
-                    Toast.makeText(TestExamMainActivity.this, "您还没有收藏记录", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(TestExamMainActivity.this, getResources().getString(R.string.you_have_not_collected_records_yet), Toast.LENGTH_SHORT).show();
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -118,7 +118,7 @@ public class TestExamMainActivity extends Activity implements OnClickListener {
                 if (cursor.getCount() != 0) {
                     startActivity(new Intent(this, ErrorActivity.class));
                 } else {
-                    Toast.makeText(TestExamMainActivity.this, "你还没有错题记录", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(TestExamMainActivity.this, getResources().getString(R.string.you_are_not_wrong_title_records), Toast.LENGTH_SHORT).show();
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -135,7 +135,7 @@ public class TestExamMainActivity extends Activity implements OnClickListener {
                 if (cursor1.getCount() != 0) {
                     startActivity(new Intent(this, HisResultActivity.class));
                 } else {
-                    Toast.makeText(TestExamMainActivity.this, "你还没有模拟考试记录", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(TestExamMainActivity.this, getResources().getString(R.string.you_do_not_have_a_test_record_yet), Toast.LENGTH_SHORT).show();
                 }
             } catch (Exception e) {
                 e.printStackTrace();

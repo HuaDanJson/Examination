@@ -473,4 +473,3 @@ public class ExamActivity extends Activity implements OnClickListener, OnItemCli
     }
 
 }
-//疑点1：为什么String之间的相等有的时候==好用，有的时候必须用equals

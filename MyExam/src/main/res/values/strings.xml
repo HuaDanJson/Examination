@@ -19,5 +19,17 @@
     <string name="historical_achievement">历史成绩</string>
     <string name="sequence_practice">顺序练习</string>
     <string name="problem_has_been_collected">这一题已经收藏了</string>
+    <string name="reminder">温馨提示</string>
+    <string name="input_name">请先输入考试姓名</string>
+    <string name="begin_exam">考试开始</string>
+    <string name="you_have_not_collected_records_yet">您还没有收藏记录</string>
+    <string name="you_are_not_wrong_title_records">你还没有错题记录</string>
+    <string name="you_do_not_have_a_test_record_yet">你还没有模拟考试记录</string>
+    <string name="have_answer">已答</string>
+    <string name="have_not_answer">未答: </string>
+    <string name="answer_right">答对: </string>
+    <string name="get_score">得分: </string>
+    <string name="time_consuming">耗时: </string>
+    <string name="time_is_over_score">时间结束！得分： </string>
 
 </resources>

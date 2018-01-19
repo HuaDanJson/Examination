@@ -424,4 +424,3 @@ public class ExamErrorActivity extends Activity implements OnClickListener,OnIte
 	}
 
 }
-//疑点1：为什么String之间的相等有的时候==好用，有的时候必须用equals
